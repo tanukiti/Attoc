@@ -41,7 +41,7 @@
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color;
-    
+    font-family: 'Hiragino Mincho ProN';
     font-size: 16px;
     }
 
@@ -80,12 +80,10 @@
     h2 {
         text-align: center;
         padding-top: 50px;
+        font-family: 'Hiragino Mincho ProN';
     }
     
-    .overview__title {
-        text-align: center;
-        padding-top: 50px;
-    }
+
 
     /* 概要 */
 
@@ -93,6 +91,12 @@
         max-width: 100%;
         width: 100%;
         padding: 30px;
+    }
+
+    .overview__title {
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Hiragino Mincho ProN';
     }
 
     .Corporate__philosophy {
@@ -137,6 +141,7 @@
         text-align: center;
         height: 100px;
         padding-right: 20px;
+        font-family: 'Hiragino Mincho ProN';
     }
 
     footer {

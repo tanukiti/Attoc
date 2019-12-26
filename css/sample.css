@@ -1,0 +1,118 @@
+@media screen and (min-width: 1024px) {
+    body {
+    width: 100%;
+    }
+
+    .site__header {
+    background: rgba(112, 112, 112, 0.4);
+    max-width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.9s;
+    width: 100%;
+      /* height: 56px; */
+    padding: 10px 20px;
+    }
+
+    .site__header.transform {
+    background: rgba(255, 82, 82, 0.9);
+    padding: 30px 20px;
+    }
+
+    /* logo */
+    .site__logo img {
+    height: 20px;
+      /* width: auto; */
+    margin-left: auto;
+    }
+
+    /* menu */
+    .gnav__menu {
+    display: flex;
+    }
+    .gnav__menu__list {
+    margin-left: 20px;
+    }
+    .gnav__menu__list a {
+    color: #333;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-property: color;
+    
+    font-size: 16px;
+    }
+
+    /* マウスオーバー */
+
+    .gnav__menu__list a:hover {
+    color: rgb(200, 80, 80);
+    /* -webkit-text-stroke: 1px #fff; */
+    }
+
+    /* メイン画像 */
+
+    .main__img {
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        /* padding-top: 56px; */
+    }
+
+    .main__img img {
+        width: 100%;
+    }
+
+    /* eye__content */
+
+    .news {
+        max-width: 100%;
+        width: 1000px;
+        border: solid 1px #ffb6c1;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 100px auto 50px;
+        justify-content: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    table {
+        margin: 30px;
+    }
+
+    tr {
+        width: 100px;
+    }
+
+    th {
+        width: 300px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    td {
+        padding-left: 20px;
+        font-family: "arial unicode ms";
+    }
+
+    footer {
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .footerCopyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .eye__contents p{
+        width: 100%;
+        font-size: 12px;
+    }
+
+}

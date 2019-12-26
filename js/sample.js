@@ -4,7 +4,7 @@ $(function () {
         heroBottom;
 
     _window.on("scroll", function () {
-        heroBottom = $(".main__img").height();
+        heroBottom = $(".overview").height();
         if (_window.scrollTop()) {
             _header.addClass("transform");
         } else {

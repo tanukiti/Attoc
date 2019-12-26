@@ -18,7 +18,7 @@
     }
 
     .site__header.transform {
-    background: rgba(255, 82, 82, 0.9);
+    background: rgba(255, 82, 82, 1);
     padding: 30px 20px;
     }
 
@@ -48,7 +48,7 @@
     /* マウスオーバー */
 
     .gnav__menu__list a:hover {
-    color: rgb(200, 80, 80);
+    color: rgb(255, 255, 255);
     /* -webkit-text-stroke: 1px #fff; */
     }
 
@@ -79,25 +79,64 @@
 
     h2 {
         text-align: center;
+        padding-top: 50px;
     }
     
-    table {
-        margin: 30px;
+    .overview__title {
+        text-align: center;
+        padding-top: 50px;
     }
 
-    tr {
-        width: 100px;
+    /* 概要 */
+
+    .overview {
+        max-width: 100%;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .Corporate__philosophy {
+        padding: 50px;
+    }
+
+    .philosophy {
+        margin-top: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .overview__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .map {
+        margin-left: 30px;
+    }
+
+
+    table {
+        max-width: 100%;
+        padding: 20px;
+        border-collapse: collapse;
+        
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(221, 219, 226);
     }
 
     th {
-        width: 300px;
-        height: 80px;
-        padding: 10px;
+        width: 100px;
     }
 
-    td {
-        padding-left: 20px;
-        font-family: "arial unicode ms";
+    th , td {
+        border:  #333;
+        width: 300px;
+        text-align: center;
+        height: 100px;
+        padding-right: 20px;
     }
 
     footer {
@@ -107,11 +146,6 @@
 
     .footerCopyright {
         text-align: center;
-        font-size: 12px;
-    }
-
-    .eye__contents p{
-        width: 100%;
         font-size: 12px;
     }
 

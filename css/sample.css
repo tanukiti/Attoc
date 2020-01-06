@@ -100,7 +100,7 @@
     }
 
     .Corporate__philosophy {
-        padding: 50px;
+        padding: 30px;
     }
 
     .philosophy {
@@ -113,7 +113,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        padding-top: 20px;
     }
     .map {
         margin-left: 30px;

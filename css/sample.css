@@ -23,10 +23,9 @@
     }
 
     /* logo */
-    .site__logo img {
-    height: 20px;
-      /* width: auto; */
-    margin-left: auto;
+    .site__logo {
+        font-style: italic;
+        font-family: 'Hiragino Mincho ProN';
     }
 
     /* menu */
